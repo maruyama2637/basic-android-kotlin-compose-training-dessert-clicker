@@ -179,6 +179,7 @@ private fun DessertClickerApp(
     desserts: List<Dessert>
 ) {
 
+    //adjust our code
     var revenue by rememberSaveable { mutableStateOf(0) }
     var dessertsSold by rememberSaveable { mutableStateOf(0) }
 
