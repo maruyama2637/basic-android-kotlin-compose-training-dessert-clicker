@@ -4,10 +4,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
+import androidx.lifecycle.viewmodel.compose.viewModel
 
 @Composable
 fun DessertScreen(
-    dessertViewModel: DessertViewModel = viewModel(),
+    dessertViewModel: DessertViewModel = viewModel()    
 ) {
     //create a val that gives me access to the public uiState
     //in the viewModel
